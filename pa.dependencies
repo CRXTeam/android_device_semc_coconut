@@ -38,12 +38,6 @@
     "target_path": "device/semc/mogami-common"
   },
   {
-    "remote": "CRX",
-    "revision": "cm-11.0",
-    "repository": "android_device_semc_coconut",
-    "target_path": "device/semc/coconut"
-  },
-  {
     "remote": "cm",
     "revision": "cm-11.0",
     "repository": "LegacyXperia/android_kernel_semc_msm7x30",
