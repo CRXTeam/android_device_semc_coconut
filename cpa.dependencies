@@ -75,7 +75,7 @@
   },
   {
     "remote": "cm",
-    "revision": "android-4.4",
+    "revision": "cm-11.0",
     "repository": "LegacyXperia/android_frameworks_av",
     "target_path": "frameworks/av"
   },  
