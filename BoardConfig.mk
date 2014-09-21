@@ -15,8 +15,6 @@
 -include device/semc/mogami-common/BoardConfigCommon.mk
 -include vendor/semc/coconut/BoardConfigVendor.mk
 
-TARGET_SPECIFIC_HEADER_PATH += device/semc/coconut/include
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/coconut/bluedroid
 
@@ -30,8 +28,11 @@ SOMC_CFG_SENSORS_PROXIMITY_APDS9700 := yes
 # Assert
 TARGET_OTA_ASSERT_DEVICE := WT19a,WT19i,coconut
 
-# No back mic
-BOARD_HAVE_BACK_MIC_CAMCORDER := false
+# Stereo speaker
+BOARD_USES_STEREO_HW_SPEAKER := true
+
+# Disable stereo recording
+BOARD_HAVE_SEMC_AUDIO := false
 
 # CM Hardware tunables
 BOARD_HARDWARE_CLASS += device/semc/coconut/cmhw
