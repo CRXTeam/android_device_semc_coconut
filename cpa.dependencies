@@ -56,7 +56,7 @@
   {
     "remote": "cm",
     "revision": "cm-11.0",
-    "repository": "LegacyXperia/android_frameworks_av",
+    "repository": "CRXTeam/android_frameworks_av_LegacyXperia",
     "target_path": "frameworks/av"
   },  
   {
